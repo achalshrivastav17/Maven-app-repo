@@ -11,7 +11,7 @@ pipeline {
         maven 'maven-3.9.8'
     }
     stages{
-        stage('Build the Maven application'){
+        stage('Build the Maven appl'){
             steps{
                 sh 'mvn install -Dmaven.test.skip=true'
             }
